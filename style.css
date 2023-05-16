@@ -1,0 +1,26 @@
+.body{
+    background-image: linear-gradient(to right, black, rgb(43, 40, 40), rgb(41, 41, 69), rgb(19, 21, 82), rgb(30, 3, 53) );
+}
+.button2{
+    position: fixed;
+    bottom: 500px;
+    right: 500px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgb(186, 187, 187), rgb(150, 150, 150), rgb(68, 68, 69));
+}
+.box {
+    transition: 
+        width      0.5s,
+        background 0.5s 0.5s;
+}
+
+.box:hover {
+    width: 300px;
+    background: linear-gradient(to right, rgb(203, 202, 201), rgb(233, 233, 233));
+    color:white;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
